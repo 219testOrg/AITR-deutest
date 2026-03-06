@@ -1,0 +1,53 @@
+{
+  "format": 1,
+  "restore": {
+    "/tmp/code_002ce05c-4d0d-4259-bc86-ede992770144_068f93b0-49a5-4bef-a71b-6152b2690cef_0hmjoxmc/sast 2 (Crit, Med) + sca 1 (High)/ast-visual-studio-extension.csproj": {}
+  },
+  "projects": {
+    "/tmp/code_002ce05c-4d0d-4259-bc86-ede992770144_068f93b0-49a5-4bef-a71b-6152b2690cef_0hmjoxmc/sast 2 (Crit, Med) + sca 1 (High)/ast-visual-studio-extension.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/tmp/code_002ce05c-4d0d-4259-bc86-ede992770144_068f93b0-49a5-4bef-a71b-6152b2690cef_0hmjoxmc/sast 2 (Crit, Med) + sca 1 (High)/ast-visual-studio-extension.csproj",
+        "projectName": "ast-visual-studio-extension",
+        "projectPath": "/tmp/code_002ce05c-4d0d-4259-bc86-ede992770144_068f93b0-49a5-4bef-a71b-6152b2690cef_0hmjoxmc/sast 2 (Crit, Med) + sca 1 (High)/ast-visual-studio-extension.csproj",
+        "packagesPath": "/root/.nuget/packages/",
+        "outputPath": "/tmp/code_002ce05c-4d0d-4259-bc86-ede992770144_068f93b0-49a5-4bef-a71b-6152b2690cef_0hmjoxmc/sast 2 (Crit, Med) + sca 1 (High)/obj/",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "/root/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net463"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net463": {
+            "projectReferences": {}
+          }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net463": {
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "System.Text.RegularExpressions": {
+              "target": "Package",
+              "version": "[4.3.1, )"
+            }
+          }
+        }
+      }
+    }
+  }
+}
