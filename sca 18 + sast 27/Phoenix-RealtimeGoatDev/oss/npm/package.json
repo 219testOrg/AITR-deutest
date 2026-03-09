@@ -8,6 +8,7 @@
   "devDependencies": {
     "@istanbuljs/nyc-config-typescript": "1.0.2",
     "@checkmarxdev/ast-cli-javascript-wrapper": "^0.0.131-oss-realtime.0",
+    "webpack": "^5.105.4",
     "webpack-cli": "^5.1.4"
   },
   "dependencies": {
@@ -17,10 +18,11 @@
     "minimist": "1.2.6",
     "moment": "2.18.0",
     "request": "2.88.2",
-    "node-ipc":"10.1.1"
+    "node-ipc":"10.1.0"
   },
   "overrides": {
-    "tar-fs": "^2.1.2"
+    "tar-fs": "^2.1.2",
+    "serialize-javascript": "^7.0.3"
   },
   "husky": {
     "hooks": {
