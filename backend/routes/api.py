@@ -351,8 +351,9 @@ def global_search():
     }
     
     try:
-        user_query = f"SELECT * FROM users WHERE username LIKE '%{query}%' OR email LIKE '%{query}%'"
-        user_result = db.session.execute(text(user_query))
+        # Use parameterized query to prevent SQL injection
+        user_query = text("SELECT * FROM users WHERE username LIKE :search_pattern OR email LIKE :search_pattern")
+        user_result = db.session.execute(user_query, {"search_pattern": f"%{query}%"})
         results['users'] = [dict(row) for row in user_result]
     except:
         pass
